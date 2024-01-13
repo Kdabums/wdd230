@@ -1,0 +1,203 @@
+body {
+    width: 767px;
+    ;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+main {
+    padding: 20px;
+
+
+}
+
+.name {
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: #eee;
+    color: #000;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+/**nav {
+	background-color: tomato;
+}*/
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover,
+navigation a:active {
+    color: white;
+    background-color: black;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+nav {
+    background-color: #36454f;
+    padding: 10px;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    /* padding: 10px; */
+
+}
+
+nav a:hover {
+    border: 1px solid #fff;
+}
+
+.active {
+    color: yellow;
+}
+
+
+header img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+header .name {
+    color: white;
+}
+
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+}
+
+
+.card1 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.learning {
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    /* width: 500px; */
+}
+
+.card2 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card h3 {
+    color: rgb(26, 4, 4);
+    text-align: center;
+    background-color: rgb(15, 235, 114);
+    padding: 3%;
+
+}
+
+iframe {
+    width: 100%;
+    /* Adjust the width as needed */
+    height: 400px;
+    /* Adjust the height as needed */
+    border: 1px solid #ccc;
+    /* Add a border for better visibility */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
