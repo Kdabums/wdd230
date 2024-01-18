@@ -1,7 +1,6 @@
 body {
-    width: 867px;
-    ;
-    margin:auto;
+    width: 767px;
+    margin:0 auto;
 }
 
 
@@ -13,7 +12,9 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.1);
 
 }
-
+.name{
+    margin-left: 30px;
+}
 main {
     padding: 20px;
 }
@@ -28,6 +29,7 @@ h1 {
 nav {
     background-color: #36454f;
     padding: 10px;
+
 
 }
 
@@ -47,11 +49,12 @@ ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
+
 }
 
 ul li a {
     text-decoration: none;
-    color: #333;
+
     /* padding: 10px; */
 
 }
