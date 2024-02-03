@@ -7,13 +7,15 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center ;
+    
     background-color: rgb(118, 154, 154);
     border: 1px solid rgba(0, 0, 0, 0.1);
 
 }
 .name{
     margin-left: 30px;
+    
 }
 #menu {
 	display: block;
@@ -168,3 +170,4 @@ footer {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+
