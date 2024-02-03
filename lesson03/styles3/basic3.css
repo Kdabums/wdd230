@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color:#2ecc71  ;
-  --secondary-color: #9b59b6;
-  --accent1-color:#34495e;
-  --accent2-color: #006400;
+  --primary-color:#FFFFFF  ;
+  --secondary-color: #165C74;
+  --accent1-color:#88B03F;
+  --accent2-color: #BF6100;
 
   /* change the values below to your chosen font(s) */
   --heading-font:Times ;
