@@ -207,7 +207,7 @@ a:hover {
 .butt2 {
     color: #191b1e;
     cursor: pointer;
-    text-decoration: underline;
+    /* text-decoration: underline;*/
 }
 
 .butt2:hover {
