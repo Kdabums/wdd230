@@ -1,5 +1,5 @@
 body {
-    width: 767px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -101,6 +101,7 @@ nav {
     flex-grow: 1;
     /* Added to make the nav take up the remaining space */
 }
+
 
 ul {
     list-style: none;
