@@ -214,6 +214,154 @@ a:hover {
 .butt2:hover {
     color: #0056b3;
 }
+/* Add enhanced styles for new sections */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Spotlight Section */
+.spotlight,
+.Weather,
+.Event {
+    max-width: 800px; /* Adjust max-width as needed */
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 10px; /* Border radius for rounded corners */
+    background-color: #ecf0f1; /* Background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Updated styles for the spotlight section */
+
+.spotlight {
+    max-width: 800px; /* Adjust max-width as needed */
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 10px; /* Border radius for rounded corners */
+    background-color: #ecf0f1; /* Background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spotlight1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.spotlight1 div {
+    flex: 1 1 calc(50% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 8px; /* Border radius for rounded corners */
+    background-color: #ffffff; /* Background color */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+/* Heading styles */
+.spotlight h2 {
+    color: #165C74; /* Heading color */
+    border-bottom: 2px solid #3498db; /* Bottom border color */
+    padding-bottom: 10px; /* Spacing */
+}
+
+/* Business content styles */
+.business {
+    text-align: left;
+}
+
+.business h3 {
+    color: #333; /* Heading color */
+    font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.business hr.line-1 {
+    border: 1px solid #3498db; /* Line color */
+    margin: 10px 0;
+}
+
+.business p {
+    color: #555; /* Text color */
+    line-height: 1.6; /* Adjust line height as needed */
+}
+
+.business span.inbox {
+    display: inline-block;
+    font-size: 1.5rem; /* Adjust font size as needed */
+    color: #e74c3c; /* Icon color */
+    margin-top: 10px;
+}
+
+/* Add more styles as needed for the specific elements within each section */
+
+
+/* Heading styles */
+.spotlight h2,
+.Weather h2,
+.Event h2 {
+    color: #165C74; /* Heading color */
+    border-bottom: 2px solid #3498db; /* Bottom border color */
+    padding-bottom: 10px; /* Spacing */
+}
+
+/* Weather Section */
+.weather-text {
+    margin-top: 20px;
+}
+
+/* Event Section */
+.event1 {
+    margin-bottom: 15px; /* Spacing between events */
+}
+.event1 a{
+    color: blue;
+    cursor: pointer;
+}
+.chamber-day {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.color1,
+.color2 {
+    width: 20px;
+    height: 20px;
+    background-color: #e74c3c; /* Example color, adjust as needed */
+}
+
+.color-text {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.color-text h3 {
+    color: #e74c3c; /* Heading color */
+}
+
+.color-text p {
+    margin-top: 10px;
+}
+
+/* Add more styles as needed for the specific elements within each section */
+
+
 
 footer {
     background-color: #165C74;
