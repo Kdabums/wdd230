@@ -30,7 +30,16 @@
         align-items: center;
         gap: 20px;
     }
-
+    #mode {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 3rem;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+    
+    
     .new-release {
         width: 100%;
         max-width: 800px; /* Adjust max-width as needed */

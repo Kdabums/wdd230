@@ -25,7 +25,16 @@
         margin: 0 auto;
         max-width: 90%; /* Adjust max-width as needed */
     }
-
+    #mode {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 3rem;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+    
+    
     main {
         width: 100%;
         display: flex;
