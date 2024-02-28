@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalise.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/large.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Playfair+Display&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+
+    <title>Chamber of commerce website </title>
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo-content">
+            <div class="logo">
+                <img class="logos" src="images/chamberlogo.webp" alt="logo image">
+                
+            </div>
+            <h1>Care Mindset Chamber of commerce</h1>
+            <div class="icons">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img src="images/book.webp"
+                        alt="facebok-icon"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/twitter.webp"
+                        alt="facebok-icon"></a>
+                <a href="https://twitter.com/home?lang=en" target="_blank"><img src="images/gram.webp"
+                        alt="facebok-icon"></a>
+            </div>
+        </div>
+        <nav>
+            <button id="hamburger"><span>&#9776;</span> <span>X</span> </button>
+            <ul id="navLink">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="discovery.html" class="active">Discovery</a></li>
+                <li> <a href="directory.html">Directory</a></li>
+                <li> <a href="join.html">Join</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </Header>
+
+    <div class="new-date">
+        <span  id="date"></span>
+    </div>
+    <p class="visit"> Number of visit </p> 
+    <main>
+        <div class="discovery-main">    
+            <div class="discovery">
+                <div class="chat-table">
+                        
+                    <table>
+                        <caption><h2> Population Data</h2></caption>
+                        <tr>
+                            <th> Industries </th>
+                            <th>No companies</th>
+                        </tr>
+                        <tr>
+                            <td>Finance</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>FM</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>Energy</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Education</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>Health</td>
+                            <td>14</td>
+                        </tr>
+                        <tr>
+                            <td>oil & Gas</td>
+                            <td>13</td>
+                        </tr>                
+                    </table>
+                    
+                    <table>
+                    <caption><h2> Companies Data</h2></caption>
+        
+                        <tr>
+                            <th> Age Group </th>
+                            <th> Population</th>
+                        </tr>
+                        <tr>
+                            <td>0-10 Years</td>
+                            <td>102</td>
+                        </tr>
+                        <tr>
+                            <td>20-30 Years</td>
+                            <td>223</td>
+                        </tr>
+                        <tr>
+                            <td>40-50 Years</td>
+                            <td>376</td>
+                        </tr>
+                        <tr>
+                            <td>60-70 Years</td>
+                            <td>333</td>
+                        </tr>
+                        <tr>
+                            <td>80-90 Years</td>
+                            <td>211</td>
+                        </tr>
+                        <tr>
+                            <td>100+</td>
+                            <td>102</td>
+                        </tr>                
+                    </table>
+                </div> 
+                <div class="chart-sect">
+                    <div class="chart">
+                    <h3> Populaton chart</h3>
+                        <canvas id="barChart" width="300px" height="300px" ></canvas>
+                    </div>
+                    <div class="chart">
+                        <h3> companies  chart</h3>
+                        <canvas id="doughnut" width="300px" height="300px" ></canvas>
+                    </div>
+                </div>
+                    
+                </div>
+           
+            <div class="scenes">
+                <div class="link-bridge">
+                    <div class="bridge-img">
+                        <picture>
+                            <img src="images/lazy-loading-place-holder.webp"  data-src="images/link.webp"  alt=" car images " width="630px"  height="430px" >
+                        </picture>
+                        <div class="imgage-card"></div>
+                        
+                    </div>                
+                <p  class="scene-text">
+                        <h4>Lekki Ikoyi Link Bridge </h4> <br>
+                        The Lekki-Ikoyi Link Bridge is a 1.36 km cable-stayed bridge in Lagos State.
+                        It links the Phase 1 area of Lekki, with Ikoyi district of Lagos. 
+                        The bridge was commissioned on 29 May 2013 by the Governor of Lagos State, Babatunde Raji Fashola.
+                        
+        
+                    </p>
+                </div>
+                <div class="shrine">
+                    <div class="shrine-img">
+                        <picture>
+                            <img src="images/lazy-loading-place-holder.webp"  data-src="images/shrine.webp"  alt=" car images " width="630px"  height="430px" >
+                        </picture>
+                        <div class="imgage-card"></div>
+                    </div>
+                <p class="scene-text">
+                       <h4>Afrika Shrine </h4> <br>
+                        Located at Ikeja, the shrine is definitely one of the fun spots to visit in Lagos and is currently the host location of the Felabration music festival, 
+                        an event held yearly in honor of the musical legend, Fela Anikulapo Kuti.
+                        It displays photo galleries of Fela and there are musical performances from different musicians especially Femi and Seun Kuti. 
+                        
+                    </p>
+        
+                </div>
+                <div class="lcc">
+                    <div class="lcc-image">
+                        <picture>
+                            <img src="images/lazy-loading-place-holder.webp"  data-src="images/conservation.webp"  alt="an image of the lekki conservation centre" width="630px"  height="430px" >
+                        </picture>
+                        <div class="imgage-card"></div>                
+                    </div>
+                <p class="scene-text">
+                        <h4>Lekki Conservation Centre (LCC)</h4> <br>
+                        The Lekki Conservation centre is a 78-hectare (190-acre) natural resource conservation in Lekki, Lagos state. 
+                        You get to immerse yourself in the beauties of nature on the amazing tour of this centre.
+                        You can even climb above tree canopies on the longest canopy bridge walk in Africa.
+                        The canopy walk is about 401-metre long. It is an engineering feat and an amazing, suspended swinging bridge walkway.                
+                        It's an untouched natural vegetation that houses various plant and animal species.
+        
+                    </p>
+                </div>
+                <div class="theatre">
+                    <div class="theatre-img">
+                        <picture>
+                            <img src="images/lazy-loading-place-holder.webp"  data-src="images/national.webp"  alt=" an image of the national theater " width="630px"  height="430px" >
+                        </picture>
+                        <div class="imgage-card"></div>
+                    </div>
+                <p class="scene-text">
+                         <h4>National Theather Nigeria</h4> <br>
+                        Constructed in 1976, National Arts Theatre is a multi-purpose national monument for the preservation, presentation and promotion of Nigerian arts and culture.
+                        Located in Iganmu on the mainland area of Lagos, the theatre which was constructed during the military regime of Gen.
+                         Olusegun Obasanjo, is the primary centre for performing arts in Nigeria. 
+                         Its exterior is shaped like a military hat making it stands out as a landmark edifice within the city.
+                </p>
+                        
+                </div>
+                <div class="nike">
+                    <div class="nike-img">
+                        <picture>
+                            <img src="images/lazy-loading-place-holder.webp"  data-src="images/nike.webp"  alt="an image of nike art gallery " width="630px"  height="430px" >
+                        </picture>
+                        <div class="imgage-card"></div>
+                    </div>
+                <p class="scene-text">
+                        <h4>Nike Art Gallery</h4>  <br>
+                        Nike Art Gallery is an art gallery in Lagos and Osun state owned by Nike Davies-Okundaye. 
+                        The gallery is one of the largest of its kind in West Africa, it boasts a collection of 
+                        about 8,000 diverse artworks of different descriptions such as paintings in different media,
+                        batik and Adire fabrics, embroidery, appliqué, beadworks, pen & ink drawing on paper and on canvas,
+                        aluminum & copper works and sculptures also in different media, all set out in the most conducive climatic
+                        condition from various Nigerian artists.
+        
+                    </p>
+        
+                </div>
+                <div class="scenes">
+                    <div class="link-bridge">
+                        <div class="bridge-img">
+                            <picture>
+                                <img src="images/lazy-loading-place-holder.webp"  data-src="images/ilesetown.webp"  alt=" car images " width="630px"  height="430px" >
+                            </picture>
+                            <div class="imgage-card"></div>
+                            
+                        </div>                
+                    <p  class="scene-text">
+                            <h4>Ilese Town </h4> <br>
+                           This is a place where alots of activities happens whenever there is a traditional activities taking place. lots of historian use come to this area and most people who are tourist likewise love visiting this place. 
+                            
+            
+                        </p>
+                    </div>
+        
+            </div>
+        </div>  
+    </main>
+    <footer>
+        <div class="table-content">
+            <div class="atn">
+                <img class="logos" src="images/chamber_logo1.png" alt="logo image">
+
+            </div>
+            <div class="btn">
+                <p><strong>CHAMBER OF COMMERCE</strong></p>
+                <a href="https://www.google.com/maps">
+                    <p> &#127759; B230 Ikoyi Lagos State.</p>
+                </a>
+            </div>
+            <div class="ctn">
+                <p>aja23001@byui.edu</p>
+                <p>+(234) 8061535086</p>
+            </div>
+        </div>
+        <hr>
+        &copy;Ajanaku Olakunle, Last Updated <span id="currentdate"></span>
+        <p class="openweather">Weather provided by <a href="openweathermap.org" target="_blank"
+                rel="noopener noreferrer">openweathermap.org</a></p>
+        
+        <script src="scripts/script.js"></script>
+        <script src="scripts/windchill.js"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts/discovery.js"></script>
+    <script src="scripts/charts.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>

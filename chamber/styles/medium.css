@@ -1,51 +1,157 @@
-/* medium.css */
-
-/* Add styles for medium-sized screens */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-
-    .navigation {
-        display: flex;
-    }
-
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
-    }
-
-    .navigation a {
-        text-align: center;
-        color: white;
-    }
-
-    #menu {
+@media only screen and (min-width: 35rem){
+    nav button{
         display: none;
     }
+    nav ul#navLink{
+        display: flex;
+        justify-content: center;
+        
+    }
+    nav ul li a{ 
+        border: none;
+        border-right: 2px dotted black;
+    }
+    nav ul li:first-child{
+        border-left: 2px dotted black;
 
-    body {
-        margin: 0 auto;
-        max-width: 90%; /* Adjust max-width as needed */
     }
-    #mode {
-        position: absolute;
-        top: 1rem;
-        right: 1rem;
-        font-size: 3rem;
-        cursor: pointer;
-        font-size: 2rem;
+    .main-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 500px 700px 700px 500px 500px;
+        grid-template-areas: " main-image main-image  main-image"
+                                "new-release new-release new-release"
+                                "spotlight spotlight spotlight"
+                                "join join join"
+                                "Event Event Weather";
+        grid-gap: 5px;
+    }
+    .Event{
+        grid-area: Event;
+    }
+    .main-image{
+        grid-area: main-image;
+    }                         
+    .Weather{
+        grid-area: Weather;
+    }
+    .join{
+        grid-area:join ;
+    }
+    .new-release{
+        grid-area: new-release;
+    }
+    .spotlight{
+        grid-area: spotlight;   
+         
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "spotlight1 spotlight2"
+                             "spotlight1 spotlight2";
+        
+        grid-gap: 5px;
+                             
+        
+        
     }
     
+    .spotlight1{
+        border: black solid 1px;
+        grid-area:spotlight1;
+        
+        /* margin: 10px 10px; */
+        
     
-    main {
-        width: 100%;
+    }
+    .spotlight2{
+        border: black solid 1px;
+        grid-area: spotlight2;
+        /* margin: 10px 10px; */
+        
+       
+           
+    }
+    .table-content{    
+        display: grid; 
+        grid-template-columns: 1fr;   
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "atn"
+                             "btn" 
+                             "ctn";
+                            
+    }
+    .atn{
+        grid-area: atn;
+    }
+    .btn{
+        grid-area: btn;
+    } 
+    .ctn{
+        grid-area: ctn;
+    }
+    .discovery{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
+        background-image: linear-gradient(rgba(3, 9, 21, 0.7),rgba(4, 8, 17, 0.7)) ,url(../images/Fela.webp);
 
-    .new-release {
+
+    }
+    .chart-sect{
+        display: flex;
+        flex-direction: row;
+    }   
+    .chat-table{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .scenes{
+        display: flex;
+        flex-direction: column;
+    }
+    .bridge-img{
+        float: none;
+    }
+    .shrine-img{
+        float: none;
+    }
+    .lcc-image{
+        float: none;
+    }
+    .theatre-img{
+        float: none;
+    }
+    .nike-img{
+        float: none;
+    }
+    .scenes img{    
+        min-width: 100%;
+        max-width: 100%;
         width: 100%;
-        max-width: 800px; /* Adjust max-width as needed */
+    } 
+    .join-main{
+    
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+        
     }
-
+    .list .main-patners {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;	       
+        padding: 0.25rem;
+    }
+    .list  .main-patners:nth-child(even) {
+        background-color: rgb(85, 92, 90);
+    }
+    
 }
+
+
+
+   

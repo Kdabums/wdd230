@@ -1,0 +1,272 @@
+@media only screen and (min-width: 64rem) {
+
+    .logo-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .logo-content h1{
+        position: relative;
+        top: 25px;
+    }
+    .logo img {
+        width: 100px;
+
+    }
+
+    section {
+        border: black solid 2px;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 0.5fr 1fr;
+        grid-template-areas: "Event main-image spotlight"
+            "Weather main-image spotlight"
+            "join new-release  spotlight";
+        grid-gap: 10px;
+    }
+
+    figure {
+        max-width: 100%;
+    }
+
+    .patners {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    figure img {
+        max-height: 100%;
+        max-width: 100%;
+
+    }
+
+    picture {
+        min-width: 100%;
+        min-height: 100%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .Event {
+        grid-area: Event;
+
+    }
+
+    .main-image {
+        grid-area: main-image;
+    }
+
+    .Weather {
+        grid-area: Weather;
+    }
+
+    .join {
+        grid-area: join;
+
+    }
+
+    .new-release {
+        grid-area: new-release;
+
+    }
+
+    .new-release p,
+    h3 {
+        overflow: hidden;
+    }
+
+    .spotlight {
+        grid-area: spotlight;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "spotlight1 spotlight1"
+            "spotlight2 spotlight2";
+
+
+    }
+
+    .spotlight1,
+    .spotlight2 {
+        border: black solid 1px;
+        margin: 10px;
+
+
+    }
+
+    .spotlight1 {
+        grid-area: spotlight1;
+    }
+
+    .spotlight2 {
+        grid-area: spotlight2;
+    }
+
+    .spotlight3 {
+        grid-area: spotlight3;
+    }
+
+    .table-content {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "atn btn ctn";
+
+    }
+
+    .atn {
+        grid-area: atn;
+    }
+
+    .btn {
+        grid-area: btn;
+    }
+
+    .ctn {
+        grid-area: ctn;
+    }
+
+    .discovery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: auto;
+        gap: 10px;
+        margin: 0 auto;
+        width: 100%;
+        z-index: 2;
+        margin-bottom: 25px;
+        background-image: linear-gradient(rgba(3, 9, 21, 0.7), rgba(4, 8, 17, 0.7)), url(../images/Fela.webp);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+
+
+
+    }
+
+    .chart {
+        width: 400px;
+        height: 400px;
+    }
+
+    .chat-table {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bridge-img {
+        float: left;
+        margin-right: 15px;
+
+    }
+
+    .link-bridge,
+    .shrine,
+    .lcc,
+    .theatre,
+    .nike {
+        margin-bottom: 20px;
+    }
+
+    .shrine {
+        clear: left;
+
+    }
+
+    .shrine-img {
+        float: left;
+        margin-right: 15px;
+
+    }
+
+    .lcc {
+        clear: left;
+
+    }
+
+    .lcc-image {
+        float: left;
+        margin-right: 15px;
+
+    }
+
+    .theatre {
+        clear: left;
+
+    }
+
+    .theatre-img {
+        float: left;
+        margin-right: 15px;
+
+    }
+
+    .nike {
+        clear: left;
+    }
+
+    .nike-img {
+        float: left;
+        margin-right: 15px;
+
+    }
+
+    footer {
+        clear: left;
+    }
+
+    .join-main {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        background-color: #a4a78b;
+    }
+
+    .membership-benefits {
+        width: 30rem;
+    }
+
+    .list .main-patners {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0.25rem;
+    }
+
+    .list .main-patners:nth-child(even) {
+        background-color: rgb(85, 92, 90);
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nero {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "form  form  blo-gright";
+
+        gap: 10px;
+
+    }
+
+
+    .home-form {
+        grid-area: form;
+    }
+
+    .home {
+        grid-area: blo-gright;
+    }
+
+
+
+
+}

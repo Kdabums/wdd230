@@ -3,158 +3,269 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber of commerce website</title>
-    <meta name="description"
-        content="WDD 230- Web Frontend Development , Olakunle Oladayo Ajanaku, WDD230 assignment portal">
-    <meta name="author" content="Ajanaku Olakunle">
-    <link rel="icon" href="images/favicon2.ico">
-    <meta property="og:title" content="Olakunle -WDD 230- Web Frontend Development">
-    <meta property="og:description" content="Learning Web Frontend Development">
-    <meta property="og:image" content="#">
-    <meta property="og:url" content="https://kdabums.github.io/wdd230/">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <script src="scripts/hamburger1.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/darkmode.js"></script>
+    <link rel="stylesheet" href="/css/normalise.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/large.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Playfair+Display&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+
+    <title>Chamber of commerce website </title>
 </head>
 
 <body>
+    
     <header>
-        <a id="menu" href="#"></a>
-        <div id="branding">
-            <img src="images/chamber_logo1.png" alt="Chamber Logo" id="logo">
-            <p>Care Mindset Chamber of commerce</p>
+        <div class="logo-content">
+            <div class="logo">
+                <img class="logos" src="images/chamberlogo.webp" alt="logo image">
+                
+            </div>
+            <h1>Care Mindset Chamber of commerce</h1>
+            <div class="icons">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img src="images/book.webp"
+                        alt="facebok-icon"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/twitter.webp"
+                        alt="facebok-icon"></a>
+                <a href="https://twitter.com/home?lang=en" target="_blank"><img src="images/gram.webp"
+                        alt="facebok-icon"></a>
+            </div>
         </div>
-
         <nav>
-            <ul class="navigation">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
+            <button id="hamburger"><span>&#9776;</span> <span>X</span> </button>
+            <ul id="navLink">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="discovery.html" class="active">Discovery</a></li>
+                <li> <a href="directory.html">Directory</a></li>
+                <li> <a href="join.html">Join</a></li>
+                <li> <a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
-   
+    </Header>
+
+    <div class="new-date">
+        <span  id="date"></span>
+    </div>
     <main>
-        <div class="page-content">
-            <p>The Caremindset Chamber of Commerce serves as a pivotal force in the local and regional economic landscape,
-                fostering leadership, convening industry stakeholders, and advocating for our vibrant community.</p>
-            <h1 class="mission">Mission</h1>
-            <p> Our mission is to drive business growth and development through tailored member services, strategic economic
-                and community initiatives, and advocacy for equitable public policies that harmonize economic prosperity and
-                community well-being.</p>
-        </div>
-        <div class="hero">
-            <img src="images/ilesa-pic-3.jpg" alt="ilesa picture">
-        </div>
-        <div class="new-div">
-            <p class="join-button"><a href="#">JOIN THE CHAMBER</a></p>
-        </div>
-        <section class="new-release">
-            <h2 class="text">New Release</h2>
-            <h3>Business 👔</h3>
-            <p>China’s economy is sputtering.
+        <div class="main-content">
+            <section class="Event">
+                <h2 class="text">Event</h2>
+                <h3> Upcoming Events (2024)</h3>
+                <div class="event1">
+                    <h4>📆 March 23</h4>
+                    <a href="#">Banana Island Trade Fair</a>
 
-                Its property market is crumbling, deflationary pressures are spreading across the nation, and its stock market has weathered a turbulent ride so far this year, with the country’s CSI 300 index erasing some 40% of its value from its 2021 peaks.
-                
-                Adding salt to the wound, January PMI numbers released by China’s National Bureau of Statistics showed manufacturing activity contracted for the fourth month in a row, driven by slumping demand. 
-                
-                The slew of downbeat data has consequently triggered a wave of skepticism toward the world’s second-largest economy. Allianz for one, reversed its buoyant view of China, now forecasting Beijing’s economy to grow by an average 3.9% between 2025 to 2029. That’s down from a 5% forecast before the Covid-19 pandemic broke out.
-                <span title="you will be directed to a page to read more about the business news" class="butt2"> Read
-                    More... </span>
-            </p>
+                </div>
+                <div class="event1">
+                    <h4> 📆 April 6</h4>
+                    <a href="#"> Ikoyi Annual Product exibition</a>
 
-            <h3>Politics 🗳️</h3>
-            <p> Former President Donald Trump wrote a social media post earlier in the week asking his supporters to give Anheuser-Busch
-                a “second chance” after UFC president Dana White personally asked him to back the beer company, a source told CNBC.
-               
-               Anheuser-Busch last year suffered a major backlash over its Bud Light marketing promotion with a transgender influencer, Dylan Mulvaney.
-               
-               White, whose UFC is the leading mixed martial arts promotion, reached out directly to Trump to encourage positive commentary about Anheuser-Busch, according to the source, who was familiar with the situation.
-                <span title="you will be directed to a page to read more about the Politics news" class="butt2">Read More...
-                </span>
-            </p>
+                </div>
+                <div class="event1">
+                    <h4>📆 Mar 23</h4>
+                    <a href="#">Caremindset giving back</a>
+                </div>
+                <div class="chamber-day">
+                    <div class="cls">
+                        <div class="color1"> </div>
+                        <div class="color2"></div>
+                        <div class="color1"></div>
+                    </div>
+                    <div class="color-text">
+                        <h3> CAREMINDSET DAY</h3>
+                        <p> Saturday April <br> 10:00 am - 4:00 p.m</p>
+                        <span> ⏰</span>
+                    </div>
+                    <div class="cls">
+                        <div class="color1"> </div>
+                        <div class="color2"></div>
+                        <div class="color1"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-image">
+                <picture class="photo-A">
+                    <source media="(min-width: 64rem)" srcset="images/face.webp">
+                    <source media="(min-width: 35rem)" srcset="images/medium500px.webp">
+                    <source media="(min-width: 100px)" srcset="images/small350px.webp">   
+                    <img src="images/large800px.webp" alt="main Image">
+                </picture>
+                <h2 class="text" id="img-text">Hero with site name and call to action</h2>
+                <h4><a href="join.html">JOIN+</a></h4>
+        
+            </section>
 
-            <h3>Sport ⚽</h3>
-            <p>Liverpool 3-1 Burnley: Diogo Jota, Luiz Diaz, Darwin Nunez score to send Reds top of Premier League
-                <span title="you will be directed to a page to read more about the GOAT news" class="butt2">Read More...
-                </span>
-            </p>
-        </section>
-        <section class="spotlight">
-            <div class="spotlight1">
-                <h2 class="text"> Spotlight 1</h2>
-                <div class="business">
-                    <h3> Are you thing of promoting  <br> your business</h3>
-                    <hr class="line-1">
-                    <p> Contact Caremindset Chamber to connect with our business community 
-                        and start the process of making the ilustrious city of <br> VI your home</p>
+            
+            <section class="spotlight">
+                <div class="spotlight1">
+                    <h2 class="text"> Spotlight 1</h2>
+                    <div class="business">
+                        <h3> Are you thing of promoting <br> your business</h3>
+                        <hr class="line-1">
+                        <p> Contact Caremindset Chamber to connect with our business community
+                            and start the process of making the ilustrious city of <br> VI your home</p>
                         <span class="inbox">&#9993;</span>
-    
+
+                    </div>
+                    <div class="Reminder">
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+                        <h3> Reminder</h3>
+                        <hr class="line-1">
+                        <p> Your small or large scale business need funding
+                            then you need to apply for Caremindset chammber 'Ego' PitchFest
+                        </p>
+                        <a href="#">Apply at Caremindset.com</a>
+                        <div class="butt">
+                            <button title=" do you wat to close your application" class="butt1"> close</button>
+                            <button title="yu will be directed to an applicatin page " class="butt2"> Apply </button>
+
+                        </div>
+                    </div>
+
                 </div>
-                
-    
-            </div>
-        </section>
-        <section class="Weather">
-            <h2 class="text">Weather</h2>
-            <span class="spn">🌤️</span>
-            <div class="weather-text">
-            <h3 id="windChill">. </h3>
-            <h3> Partly cloudly</h3>
-            <hr>        
-            <h3>Wind Speed:<span id="speed"> 2.3</span> km/h </h3>
-            <h3>Wind Chil: <span id="temp" > 0.6215</span>  &#8451;</h3>
-            </div>
-        </section>
-        <section class="Event">
-            <h2 class="text">Event</h2>
-            <h3> Upcoming Events (2023)</h3>
-            <div class="event1"> 
-                <h4>📆 March 23</h4>
-                <a href="#">Caremindset Trade Fair</a>             
-                
-            </div>
-            <div class="event1"> 
-                <h4> 📆 April 6</h4>
-                <a href="#"> Caremindset Annual Product exibition</a>            
-                
-            </div>
-            <div class="event1"> 
-                <h4>📆 Mar 23</h4>
-                <a href="#">Caremindset Community giving back</a>           
-            </div>
-            <div class="chamber-day">
-                <div class="cls">
-                    <div class="color1"> </div>
-                    <div class="color2"></div>
-                    <div class="color1"></div>
-                </div>            
-                <div class="color-text">
-                    <h3> CAREMINDSET CHAMBER DAY</h3>
-                    <p> Saturday April <br>  10:00 am - 4:00 p.m</p>
-                    <span > ⏰</span>
+                <div class="spotlight2">
+                    <h2 class="text"> Our Patners</h2>
+                    <section class="patners">
+                        <h3> Max-Migold LTD</h3>
+                        <figure class="pat-img">
+                            <img class="imgtest" src="images/Maxmigold-logo.webp" alt="maxmigold logo">
+                        </figure>
+                        <p> industry: Facility Management</p>
+                        <hr class="lines">
+                        <p> Business Location: Ikoyi</p>
+                        <hr class="lines">
+                        <p>Domain: <a href="https://maxmigold.com/">https://maxmigold.com/</a></p>
+                    </section>
+                    <section class="patners">
+                        <h3> PriceWaterhousecooper</h3>
+                        <figure class="pat-img">
+                            <img class="imgtest" src="images/pwc.webp" alt="PwC logo">
+                        </figure>
+                        <p> industry: Finance</p>
+                        <hr class="lines">
+                        <p> Business Location: Ikoyi</p>
+                        <hr class="lines">
+                        <p class="smile">Domain: <a
+                                href="https://www.pwc.com/ng/en.html">https://www.pwc.com/ng/en.html</a></p>
+                    </section>
                 </div>
-                <div class="cls">
-                    <div class="color1"> </div>
-                    <div class="color2"></div>
-                    <div class="color1"></div>
-                </div>       
-    
-            </div>
-    
-        </section>
-    </main>    
+
+
+            </section>
+            <section class="Weather">
+                <h2 class="text">Weather</h2>
+                <div class="weatherImg">
+                    <img src="#" alt="" id="weather-icon">
+                    <h3 id="windChill"> </h3>
+                </div>
+                <div class="weather-text">
+                    <h4 id="descript"> </h4>
+                    <hr>
+                    <h3>Wind Speed:<span id="speed"></span> m/h </h3>
+                    <h3>Temperature: <span id="temp"></span> &#8451; </h3>
+                </div>
+            </section>
+
+            <section class="join">
+                <h2 class="text">join</h2>
+                <p class="join-text">The Caremindset Chamber of Commerce serves as a pivotal force in the local and
+                    regional economic
+                    landscape,
+                    fostering leadership, convening industry stakeholders, and advocating for our vibrant community.
+                    <br> <br> Our mission is to drive business growth and development through tailored member services,
+                    strategic
+                    economic
+                    and community initiatives, and advocacy for equitable public policies that harmonize economic
+                    prosperity
+                    and
+                    community well-being. <br>
+                    join our of business professionals today by clicking on the button below </p>
+                <div class="new-div">
+                    <p class="join-button"><a href="join.html">JOIN</a>+</p>
+                </div>
+
+            </section>
+            <section class="new-release">
+                <h2 class="text">New Release</h2>
+                <h3>Business 👔</h3>
+                <p>China’s economy is sputtering.
+
+                    Its property market is crumbling, deflationary pressures are spreading across the nation, and its
+                    stock
+                    market has weathered a turbulent ride so far this year, with the country’s CSI 300 index erasing
+                    some
+                    40% of its value from its 2021 peaks.
+
+                    Adding salt to the wound, January PMI numbers released by China’s National Bureau of Statistics
+                    showed
+                    manufacturing activity contracted for the fourth month in a row, driven by slumping demand.
+
+                    The slew of downbeat data has consequently triggered a wave of skepticism toward the world’s
+                    second-largest economy. Allianz for one, reversed its buoyant view of China, now forecasting
+                    Beijing’s
+                    economy to grow by an average 3.9% between 2025 to 2029. That’s down from a 5% forecast before the
+                    Covid-19 pandemic broke out.
+                    <span title="you will be directed to a page to read more about the business news" class="butt2">
+                        Read More... </span>
+                </p>
+
+                <h3>Politics 🗳️</h3>
+                <p> Former President Donald Trump wrote a social media post earlier in the week asking his supporters to
+                    give Anheuser-Busch
+                    a “second chance” after UFC president Dana White personally asked him to back the beer company, a
+                    source
+                    told CNBC.
+
+                    Anheuser-Busch last year suffered a major backlash over its Bud Light marketing promotion with a
+                    transgender influencer, Dylan Mulvaney.
+
+                    White, whose UFC is the leading mixed martial arts promotion, reached out directly to Trump to
+                    encourage
+                    positive commentary about Anheuser-Busch, according to the source, who was familiar with the
+                    situation.
+                    <span title="you will be directed to a page to read more about the Politics news" class="butt2">Read
+                        More... </span>
+                </p>
+
+                <h3>Sport ⚽</h3>
+                <p>Liverpool 3-1 Burnley: Diogo Jota, Luiz Diaz, Darwin Nunez score to send Reds top of Premier League
+                    <span title="you will be directed to a page to read more about the GOAT news" class="butt2">Read
+                        More... </span>
+                </p>
+
+
+
+            </section>
+
+        </div>
+    </main>
     <footer>
-        <p> © 2024| Olakunle O. Ajanaku| Last Updated :<span id="currentdate"></span> <span id="lastModified"></span>
-        </p>
-        <script src="scripts/getdates1.js"></script>
+        <div class="table-content">
+            <div class="atn">
+                <img class="logos" src="images/chamber_logo1.png" alt="logo image">
+
+            </div>
+            <div class="btn">
+                <p><strong>CHAMBER OF COMMERCE</strong></p>
+                <a href="https://www.google.com/maps">
+                    <p> &#127759; B230 Ikoyi lagos State.</p>
+                </a>
+            </div>
+            <div class="ctn">
+                <p>aja23001@byui.edu</p>
+                <p>+(234) 8061535086</p>
+            </div>
+        </div>
+        <hr>
+        &copy;Ajanaku Olakunle, Last Updated <span id="currentdate"></span>
+        <p class="openweather">Weather provided by <a href="openweathermap.org" target="_blank"
+                rel="noopener noreferrer">openweathermap.org</a></p>
+        
+        <script src="scripts/script.js"></script>
+        <script src="scripts/windchill.js"></script>
     </footer>
 </body>
 
