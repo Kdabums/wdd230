@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalise.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/medium.css">
+    <link rel="stylesheet" type="text/css" href="styles/large.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Playfair+Display&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+
+    <title>Chamber of commerce website </title>
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo-content">
+            <div class="logo">
+                <img class="logos" src="images/chamberlogo.webp" alt="logo image">
+                
+            </div>
+            <h1>Care Mindset Chamber of commerce</h1>
+            <div class="icons">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><img src="images/book.webp"
+                        alt="facebok-icon"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/twitter.webp"
+                        alt="facebok-icon"></a>
+                <a href="https://twitter.com/home?lang=en" target="_blank"><img src="images/gram.webp"
+                        alt="facebok-icon"></a>
+            </div>
+        </div>
+        <nav>
+            <button id="hamburger"><span>&#9776;</span> <span>X</span> </button>
+            <ul id="navLink">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="discovery.html" class="active">Discovery</a></li>
+                <li> <a href="directory.html">Directory</a></li>
+                <li> <a href="join.html">Join</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </Header>
+
+    <div class="new-date">
+        <span  id="date"></span>
+        <p class="visit"> Number of visit </p> 
+    </div>
+    <main>
+        <div class="central">
+            <h2 class="member">Become a memebr of our chammber</h2>
+        <div class="join-main">
+            <form method="get" action="thank.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">First Name<span class="star">*</span> <input type="text"  name="fname" required></label>
+                    <label class="top">Last Name <span class="star">*</span> <input type="text"  name="lname" required></label>
+                    <label class="top top1">Business Position<input type="text"  name="position" pattern="^[a-zA-Z\s-]{7,}$"></label>
+                    <label class="top">Email <span class="star">*</span> <input type="email"  name="email" required  placeholder="someone@gmail.com"></label>
+                    <label class="top">phone <input type="tel"  name="phone" required  placeholder="123455553321"></label>
+                    <label class="top top1" >Business Name <span class="star">*</span> <input type="text"  name="bname"   required></label>
+                    <div class="remember-me">
+                    <label for="remember">Remember Me:</label>
+                    <div class="toggle">
+                        <input class="box" type="checkbox" id="remember" name="remember" />
+                        <label for="remember" class="toggle-label"></label>
+                    </div>
+                    </div>                
+                </fieldset>
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <div>NB Fees can be paid in installment</div>
+                    <label class="middle"><input type="radio" name="Audience" value="bronze">Floor Membership (Free)</label>
+                    <label class="middle"><input type="radio" name="Audience" value="bronze"> Bronze ($300.00)</label>
+                    <label class="middle"><input type="radio" name="Audience" value="silver"> Silver ($500.00)</label>
+                    <label class="middle"><input type="radio" name="Audience" value="gold"> Gold ($700.00)</label>
+                    <label class="top">membership Duration
+                        <select name="Subject" >
+                            <option value=""> Please Select &#9662;</option>
+                            <option value="1-6 months">1-6 months</option>
+                            <option value="1 Year"> 1 Year</option>
+                            <option value="2-3 Years"> 2-3 Years</option>
+                            <option value="4-6 Years"> 4-6 Years</option>
+                            <option value="8-10 Years"> 8-10 Years</option>
+                            <option value="11-13 Years"> 11-13 Years</option>
+                            <option value="15-20 Years"> 15-20 Years</option>
+                            <option value="Share holding">20+ (Share holding)</option>                       
+    
+                        </select>
+                    </label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="top">Company Name<span class="star">*</span><input type="text" name="cname"></label>
+                    <label class="top">Industr<span class="star">*</span><input type="text" name="industry"></label>
+                    <label class="top">number of Employee<input type="number" name="employee"></label>      
+                    <label for="message">Enter your message:</label>
+                    <br>
+                    <textarea id="message" name="message" rows="4" cols="38"></textarea> 
+                    <input type="hidden" id="date" name="date"> 
+                </fieldset>
+                <input class="submitBtn" type="submit" value="Become A Member">
+                
+            </form>
+            <div class="membership-benefits">
+                <h3 class="level">Level of Benefit &#9662</h3>
+                <p><strong> Floor Membership:</strong> Access to Seminars, news letters and all memberssip meetings</p>
+                <br>
+                <p><strong>Bronze:</strong>Access to industry meetings, seminars, newsletter, and micro loan facilities and business patronization from other members</p>
+                <br>
+                <p><strong>Silver:</strong>Access to all benefits available to bronze members and  1 weekly spotlight advert, state loans, industry meetings,seminars & newsletter </p>
+                <br>
+                <p><strong>Gold:</strong> Access to all benefits available to silver and Access to 2 weekly spotlight adverts, 1 weekly front page advert, 
+                    all business loan facilities, industry meetings, seminars, newsletter, and annual holiday trips as well as advosy and member to member Ads.</p>
+                <div class="brief-image">
+                    <h3 class="gal">Image Gallery</h3>
+                    <div class="img1">
+                        <img src="images/ent.webp" alt=" enterprenure image quote" >
+                    </div>
+                    <div class="img1">
+                        <img src="images/heart.webp" alt="image of hear quote" >
+                    </div>
+                    <div class="img1">
+                        <img src="images/grp.webp" alt="mage of chamber quote" >
+                    </div>              
+                    
+                </div>
+    
+    
+            </div>
+    
+        </div>
+    
+        </div> 
+    </main>
+    <footer>
+        <div class="table-content">
+            <div class="atn">
+                <img class="logos" src="images/chamber_logo1.png" alt="logo image">
+
+            </div>
+            <div class="btn">
+                <p><strong>CHAMBER OF COMMERCE</strong></p>
+                <a href="https://www.google.com/maps">
+                    <p> &#127759; B230 Ikoyi lagos State.</p>
+                </a>
+            </div>
+            <div class="ctn">
+                <p>aja23001@byui.edu</p>
+                <p>+(234) 8061535086</p>
+            </div>
+        </div>
+        <hr>
+        &copy;Ajanaku Olakunle, Last Updated <span id="currentdate"></span>
+        <p class="openweather">Weather provided by <a href="openweathermap.org" target="_blank"
+                rel="noopener noreferrer">openweathermap.org</a></p>
+        
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <script src="scripts/discovery.js"></script>
+                <script src="scripts/charts.js"></script>
+                <script src="scripts/script.js"></script>
+                <script src="scripts/windchill.js"></script>
+    </footer>
+</body>
+
+</html>
