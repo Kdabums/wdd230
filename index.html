@@ -102,7 +102,22 @@
         <section class="card2">
             <h3 class="learning"> Information</h3>
             <p> Osunstate Nigeria </p>
-            <p> weather <span>☀️</span></p>
+           
+            <section class="Weather">
+                <h2 class="text">Weather</h2>        
+                    <div class="weatherImg">
+                        <img src="" alt="" id="weather-icon" >
+                        <span id="windChill"> </span>
+                    </div>                       
+                    <div class="weather-text">            
+                    <span id="descript"> </span>
+                    <hr> 
+                    <div class="h3text">        
+                        
+                        <h3>☀️ <span id="temp" ></span>  &#8451; </h3>
+                    </div> 
+                    </div>
+            </section>
             <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
 
         </section>
@@ -120,6 +135,7 @@
         <p> © 2024| Olakunle O. Ajanaku| Last Updated :<span id="currentdate"></span> <span id="lastModified"></span>
         </p>
         <script src="scripts/getdates.js"></script>
+        <script src="scripts/windchill.js"></script>
     </footer>
 </body>
 

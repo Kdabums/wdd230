@@ -194,8 +194,12 @@ footer {
     text-align: center;
 }
 
-
-
+.text{
+    text-align: center;
+}
+.h3text{
+    text-align: center;
+}
 
 * {
     margin: 0;
