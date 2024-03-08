@@ -1,0 +1,48 @@
+{
+    "wardMembers": [
+      {
+        "familyName": "Ajanaku",
+        "moveInDate": "2023-05-15",
+        "numberOfPeople": 7,
+        "visitedByBishopric": true,
+        "familyMembers": [
+          {
+            "name": "John Ajanaku",
+            "gender": "Male",
+            "birthdate": "1990-03-22"
+          },
+          {
+            "name": "Jane Ajanaku",
+            "gender": "Female",
+            "birthdate": "1992-08-17"
+          },
+          {
+            "name": "David Ajanaku",
+            "gender": "Male",
+            "birthdate": "2015-11-05"
+          },
+          {
+            "name": "Emily Ajanaku",
+            "gender": "Female",
+            "birthdate": "2018-04-10"
+          },
+          {
+            "name": "Robert Ajanaku",
+            "gender": "Male",
+            "birthdate": "2020-09-02"
+          },
+          {
+            "name": "Sophia Ajanaku",
+            "gender": "Female",
+            "birthdate": "2022-02-15"
+          },
+          {
+            "name": "Ella Ajanaku",
+            "gender": "Female",
+            "birthdate": "2024-01-07"
+          }
+        ]
+      }
+    ]
+  }
+  

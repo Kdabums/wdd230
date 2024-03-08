@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+    --background-color: #C2C5AA;
+    --secondary-color: #B6AD90;
+    --accent1-color:#333D29;
+    --accent2-color:#582F0E;
+    --accent3-color:#936639;
+    --header-and-footer:#414833;
+
+}
+body {
+	font-size: 1.2rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #e7dede;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px;
+	background-color:#936639 ;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#cards{ 
+    margin-top: 10px;       
+	margin-left: 1rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1.rem;
+	
+    
+} 
+img{
+    width: 100%;
+    max-width: 100%;
+}
+section{    
+    width: 90%;
+	display: flex;    
+	flex-direction: column;
+	align-items: center;
+    background-color:#936639;
+	justify-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+section img {
+	width: 240px;
+	height: auto;
+	border: 1px solid #fff;
+	box-shadow: 0 0 20px #fff;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+    
+}
+img:hover{
+	scale: 1.1;
+}
+.info{
+    background-color: #333D29;
+    text-align: center;    
+    margin: 0.5rem;    
+	border: 1px solid #fff;
+	padding: 1rem;
+	
+    
+}
+
+
+.label {
+	text-align: right;
+	/* color: yellow; */
+}
+footer{
+	background-color: #936639;
+	padding: 10px;
+	min-width: 370px;
+	width: 100%;
+	text-align: center;
+}
