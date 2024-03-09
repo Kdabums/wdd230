@@ -1,0 +1,75 @@
+{
+    "companies":[
+        {
+            "name": "Max-Migold",
+            "location": "Yaba",
+            "industry": "Facility Management",
+            "domain": "https://maxmigold.com/",
+            "imageurl":   "https://kdabums.github.io/wdd230/chamber/images/Maxmigold-logo.webp"
+        },
+        {
+            "name": "Price Water housecooper",
+            "industry": "Audit",
+            "location": "Oniru",
+            "domain": "https://www.pwc.com/ng/en.html",
+            "imageurl":   "https://kdabums.github.io/wdd230/chamber/images/pwc.webp"
+        },
+        {
+            "name": "Landmark Properties",
+            "location" : "Ikoyi",
+            "industry": "Property",
+            "domain": "https://lcrng.com/",
+            "imageurl": "https://kdabums.github.io/wdd230/chamber/images/landmark.webp"
+        },
+        {
+            "name": "Gheysenreal",
+            "location": "Lekki",
+            "industry": "Entertainment",
+            "domain": "http://www.gheysenreal.com/",
+            "imageurl":   "https://kdabums.github.io/wdd230/chamber/images/gheyen.webp"
+        },
+        {
+            "name": "Assure space",
+            "industry": "Facility Management",
+            "location": "Yaba",
+            "domain": "https://www.Assure space.com",
+            "imageurl":   "https://kdabums.github.io/wdd230/chamber/images/assure.jpeg"
+        },
+        {
+            "name": "Eco wave power",
+            "industry": "Energy",
+            "location": "Isreal",
+            "domain": "https://www.ecowavepower.com/",
+            "imageurl":   "https://kdabums.github.io/wdd230/chamber/images/power.webp"
+        },
+        {
+            "name": "lbic Mortgage Bank",
+            "industry": "Finance",
+            "location": "Ikeja",
+            "domain": "https://www.lbicplc.com/",
+            "imageurl":   "https://kdabums.github.io/wdd230/chamber/images/lbic.webp"
+        },
+        {
+            "name": "Facility Desk",
+            "industry": "Technology",
+            "location": "Yaba",
+            "domain": "https://www.ficid.com",
+            "imageurl":   "https://kdabums.github.io/wdd230/chamber/images/desk.jpeg"
+        },
+        {
+            "name": "Vandrezzer Energy",
+            "industry": "Energy",
+            "location": "Lekki",
+            "domain": "https:vandrezzerenergy.com",
+            "imageurl":   "https://kdabums.github.io/wdd230/chamber/images/vandezzer.webp"
+        },
+        {
+            "name": "AB Microfinance ban",
+            "industry": "Finance",
+            "location": "Ikeja",
+            "domain": "https://www.ABmicrofinance",
+            "imageurl":   "https://kdabums.github.io/wdd230/chamber/images/microfinance.webp"
+        }
+
+    ]
+}
