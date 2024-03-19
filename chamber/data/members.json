@@ -1,0 +1,85 @@
+{
+    "companies":[
+        {
+            "name": "Max-Migold",
+            "Address": "Yaba 22 lagos state",
+            "PhoneNumber": "+234806145296",
+            "Website": "https://maxmigold.com/",
+            "image":   "Maxmigold-logo.webp",
+            "Membershiplevel":1
+        },
+        {
+            "name": "Price Water housecooper",
+            "Address": "Yaba 2 lagos state",
+            "PhoneNumber": "+234906145397",
+            "Website": "https://www.pwc.com/ng/en.html",
+            "image":   "pwc.webp",
+            "Membershiplevel":2
+        },
+        {
+            "name": "Landmark Properties",
+            "Address": "ikoyi 2 lagos state",
+            "PhoneNumber": "+234906745893",
+            "Website": "https://lcrng.com/",
+            "image": "landmark.webp",
+            "Membershiplevel":3
+        },
+        {
+            "name": "Gheysenreal",
+            "Address": "leki phase 3 lagos state",
+            "PhoneNumber": "+234706746891",
+            "Website": "http://www.gheysenreal.com/",
+            "image":   "gheyen.webp",
+            "Membershiplevel":4
+        },
+        {
+            "name": "Assure space",
+            "Address": "olorundo off allen  lagos state",
+            "PhoneNumber": "+234704747897",
+            "Website": "https://www.Assurespace.com",
+            "image":   "assure.jpeg",
+            "Membershiplevel":7
+        },
+        {
+            "name": "Eco wave power",
+            "Address": "power stattion 63 lagos state",
+            "PhoneNumber": "+23470474680",
+            "Website": "https://www.ecowavepower.com/",
+            "image":   "power.webp",
+            "Membershiplevel":8
+        },
+        {
+            "name": "lbic Mortgage Bank",
+            "Address": "Iburu avenue off wale street lagos state",
+            "PhoneNumber": "+234726786897",
+            "Website": "https://www.lbicplc.com/",
+            "image":   "lbic.webp",
+            "Membershiplevel":5
+        },
+        {
+            "name": "Facility Desk",
+            "Address": "alagbo 117 lagos state",
+            "PhoneNumber": "+234703749893",
+            "Website": "https://www.ficid.com",
+            "image":   "desk.jpeg",
+            "Membershiplevel":9
+        },
+        {
+            "name": "Vandrezzer Energy",
+            "Address": "Van vill 24 lagos state",
+            "PhoneNumber": "+234706946194",
+            "Website": "https:vandrezzerenergy.com",
+            "image":   "vandezzer.webp",
+            "Membershiplevel":12
+        },
+        {
+            "name": "AB Microfinance ban",
+            "Address": "Finane house ikeja lagos state",
+            "PhoneNumber": "+234706446860",
+            "Website": "https://www.ABmicrofinance",
+            "image":   "microfinance.webp",
+            "Membershiplevel":10
+        }
+
+    ]
+}

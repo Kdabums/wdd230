@@ -953,9 +953,10 @@ form textarea {
     padding-top: 10px;
 }
 
-.main-directory .main-patners.patners,
-h2 {
+.main-directory .main-patners
+ {
     text-align: center;
+    align-items: center;
 
 }
 

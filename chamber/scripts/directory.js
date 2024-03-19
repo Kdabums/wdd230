@@ -1,4 +1,4 @@
-const directoryUrl = "https://kdabums.github.io/wdd230/chamber/directory.json"
+const directoryUrl = "./data/members.json"
 
 
 getcompaniesData(directoryUrl );
@@ -24,6 +24,7 @@ function displayCompanies(companies){
         fig.classList.add('patners-img');
         let name = document.createElement('h3');    
         let industry = document.createElement('p');
+        let Membershiplevel=document.createElement('p');
         let line = document.createElement('hr');
         line.classList.add('line');
         let location = document.createElement('p');
@@ -31,11 +32,12 @@ function displayCompanies(companies){
         let image = document.createElement('img');
 
         name.innerHTML =    ` ${company.name}`;
-        industry.innerHTML = `${company.industry}`;        
-        location.innerHTML = `${company.location}`;
-        domain.innerHTML = `  ${company.domain}`;
-        image.setAttribute( 'src', company.imageurl);
-        image.setAttribute( 'alt', `image of ${company.name} }`);
+        industry.innerHTML = `${company.PhoneNumber}`;        
+        location.innerHTML = `${company.Address}`;
+        domain.innerHTML = `  ${company.Website}`;
+        Membershiplevel.innerHTML = `  ${company.Membershiplevel}`;
+        image.setAttribute( 'src',`./images/${company.image}` );
+        image.setAttribute( 'alt', `image of ${company.name} `);
         image.setAttribute( 'width', '250');
         image.setAttribute( 'height', '150');
         image.setAttribute( 'loading', 'lazy');

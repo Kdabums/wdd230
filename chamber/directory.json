@@ -2,10 +2,11 @@
     "companies":[
         {
             "name": "Max-Migold",
-            "location": "Yaba",
-            "industry": "Facility Management",
-            "domain": "https://maxmigold.com/",
-            "imageurl":   "https://kdabums.github.io/wdd230/chamber/images/Maxmigold-logo.webp"
+            "Address": "Yaba 22 lagos state",
+            "Phone Number": "+234806145296",
+            "Website": "https://maxmigold.com/",
+            "imageurl":   "https://kdabums.github.io/wdd230/chamber/images/Maxmigold-logo.webp",
+            "Membership level": 1
         },
         {
             "name": "Price Water housecooper",
