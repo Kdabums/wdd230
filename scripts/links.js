@@ -1,38 +1,27 @@
 const baseURL = "https://kdabums.github.io/wdd230/data/links.json";
-const linksURL = baseURL + "data/links.json";
 
-async function getLinks(linksURL) {
-  const response = await fetch(linksURL);
+
+async function getLinks(baseURL) {
+  const response = await fetch(baseURL);
   const data = await response.json();
-  displayLinks(data.lessons);
+  console.log(data)
+  renderLink(data.lessons)
 }
 
-function displayLinks(data) {
-  const activitiesList = document.querySelector('.main-section .learning ul');
 
-  data.lessons.forEach(lesson => {
-    const lessonNumber = lesson.lesson;
-    const lessonLinks = lesson.links;
+function linkTemplate(data) {
+    
+  const link1 = data.links[0] || {};
+  const link2 = data.links[1] || {};
 
-    const lessonItem = document.createElement('li');
-    lessonItem.textContent = `${lessonNumber}:`;
-
-    lessonLinks.forEach(link => {
-      const linkElement = document.createElement('a');
-      linkElement.href = baseURL + link.url;
-      linkElement.textContent = link.title;
-
-      const separator = document.createTextNode(' | ');
-
-      lessonItem.appendChild(linkElement);
-      lessonItem.appendChild(separator);
-    });
-
-    // Remove the last separator
-    lessonItem.removeChild(lessonItem.lastChild);
-
-    activitiesList.appendChild(lessonItem);
-  });
+  return `<li>lesson ${data.lesson}:<a href="${link1.url || ''}">${link1.title || ''}</a> | <a href="${link2.url || ''}">${link2.title || ''}</a></li>`;
 }
+function renderLink(data) {
+  const htmlItems = data.map(linkTemplate); // Map each lesson data to HTML
+  const selector = document.getElementById("activityList");
+  
+ selector.innerHTML = htmlItems.join(""); // Join HTML items and render into the specified DOM element
+}
+getLinks(baseURL);
 
-getLinks();
+

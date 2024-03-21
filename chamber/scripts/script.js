@@ -23,6 +23,14 @@ function getEvent(){
 	if (day == 1 || day== 2){       
         
         console.log("today is monday");
+        banner=document.querySelector('.banner');
+            const text = document.createElement('p');
+            text.textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+            text.style.backGrocolor= "black";
+            text.style.backgroundColor="pink";            
+            text.style.padding = "25px";
+            text.style.textAlign = "center";
+            banner.appendChild(text);
 
             	
     }
