@@ -112,14 +112,19 @@
             "title": "Json File"
           },
           {
-            "url": "lesson09/prophet.html",
+            "url": "lesson09/prophets.html",
             "title": "Prophets Pages"
           }
         ]
       },
       {
         "lesson": "10",
-        "links": []
+        "links": [
+          {
+            "url": "lesson10/weather.html",
+            "title": "Weather API"
+          }
+        ]
       }
     ]
   }

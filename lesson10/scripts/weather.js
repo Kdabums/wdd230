@@ -31,7 +31,7 @@ async function getWeather(url){
 
 
 function displayResult(weatherData){
-    currentTemp.innerHTML = `<strong>${ Math.round(weatherData.main.temp)} F <strong/>`
+    currentTemp.innerHTML = `<strong>${ Math.round(weatherData.main.temp)} <strong/>`
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
 
