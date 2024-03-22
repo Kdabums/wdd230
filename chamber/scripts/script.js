@@ -20,7 +20,7 @@ button.onclick = toggleMenu;
 function getEvent(){
 	let now = new Date();
 	const day = now.getDay()
-	if (day == 1 || day== 2){       
+	if (day == 1 || day== 2 || day==3){       
         
         console.log("today is monday");
         banner=document.querySelector('.banner');
